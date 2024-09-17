@@ -1,16 +1,13 @@
 import React from "react";
+import Card from "./Components/Card";
 
-export default function(){
+export default function(){ 
 
-
-    console.log("1234");
     
     
 return(
     <>
-    <div>
-    
-    </div>
+    <Card></Card>
     </>
 )
 }
