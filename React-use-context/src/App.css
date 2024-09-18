@@ -1,0 +1,13 @@
+.cards-div{
+    display: flex;
+    position:relative;
+    left: 20%;
+    width: 800px;
+    height:600px;
+    background-color: beige;
+}
+.cards-div3{
+    position: relative;
+    display: flex;
+
+}

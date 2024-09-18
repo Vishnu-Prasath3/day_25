@@ -1,16 +1,19 @@
-import React from "react";
+import React, { createContext,useState } from 'react' //createContext added
+import Cards from './Components/Cards'
+import customData from './reactDomTree.json' //getting json from folder
 
-export default function(){
+// using context
+export const userContext=createContext();
+// App function
+export default function App() {
 
-
-    console.log("1234");
-    
-    
-return(
-    <>
-    <div>
-    
-    </div>
-    </>
-)
+  const[state,setstate]=useState("hello,world")
+  return (
+   <>
+    <userContext.Provider value={{state,customData}}>
+      <Cards/>
+    </userContext.Provider>
+   </>
+  )
 }
+
