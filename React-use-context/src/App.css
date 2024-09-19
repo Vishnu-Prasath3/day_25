@@ -1,13 +1,30 @@
-.cards-div{
+.card{
+    width: 100%;
+    border: 5px black solid;
     display: flex;
-    position:relative;
-    left: 20%;
-    width: 800px;
-    height:600px;
-    background-color: beige;
-}
-.cards-div3{
-    position: relative;
-    display: flex;
+    justify-content: space-between;
 
+}
+.card>img{
+    width: 20%;
+}
+.Total-div{
+width: 100%;
+height: 200px;
+background-color: black;
+color: white;
+text-align: end;
+padding-top: 50px;
+padding-right: 100px;
+}
+.fstdiv{
+    width: 100%;
+    height: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: end;
+    background-color: blueviolet;
+}
+.fstdiv>h1{
+    position: relative;
+    right: 50px;
 }
