@@ -10,7 +10,7 @@ export default function App() {
 
   const[state,setstate]=useState(0)
   console.log(state);
-  
+  // $
   return (
    <>
     <userContext.Provider value={{state,setstate,customData}}>
