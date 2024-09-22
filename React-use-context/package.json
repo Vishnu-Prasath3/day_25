@@ -1,4 +1,12 @@
 {
+  
+    "json.schemas": [
+      {
+        "fileMatch": ["package.json"],
+        "url": "./path-to-local-schema/package-schema.json"
+      }
+    ],
+  
   "name": "react-use-context",
   "private": true,
   "version": "0.0.0",
