@@ -8,7 +8,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       // Ensure that the correct entry point is specified
-      input: '/src/main.jsx', // Adjust this if your entry file is different
+      input: './src/main.jsx', // Adjust this if your entry file is different
+      external: ['react', 'react-dom']
+    
     }
   }
 })
