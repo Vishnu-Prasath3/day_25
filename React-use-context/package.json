@@ -1,12 +1,7 @@
 {
   
-    "json.schemas": [
-  
-      
+    "json.schemas": [ 
     {
-  
-      
-      
     "fileMatch": [
     "package.json"
     ],
